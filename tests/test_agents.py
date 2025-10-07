@@ -1,3 +1,16 @@
+git clone https://github.com/aimacode/aima-python.git
+
+cd aima-python
+python3 -m venv venv
+source venv/bin/activate
+python -m venv venv
+.\venv\Scripts\Activate
+pip install -r requirements.txt
+pip install -e .
+from aima.search import breadth_first_tree_search, Problem
+pip install jupyter
+jupyter notebook
+
 import random
 
 import pytest
